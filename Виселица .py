@@ -133,7 +133,7 @@ def start_screen():
     c.create_text(400, 250, text=rules, fill="black", font=('Helvetica', "14"), width=700)
 
     bttn1 = Button(root, text="Начать игру", command=lambda: [cross(), start(), bttn1.destroy()])
-    bttn1.place(relx=0.5, rely=0.7, anchor=CENTER)
+    bttn1.place(relx=0.5, rely=0.9, anchor=CENTER)
     bttn1["bg"] = "red"
     bttn1["fg"] = "white"
     bttn1["font"] = ("Helvetica", 16)

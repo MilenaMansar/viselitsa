@@ -26,7 +26,7 @@
 5. Победа: Если игрок угадывает слово, он побеждает.
 6. Поражение: Если игрок исчерпывает все 6 попыток, не угадав слово, он проигрывает.
 
-![IMAGE 2024-11-19 15:12:58](https://github.com/user-attachments/assets/526a724f-afc6-4c13-a549-4d58f61c39bb)
+![IMAGE 2024-11-19 15:14:46](https://github.com/user-attachments/assets/e5c9ed66-8da0-42e2-8ccb-9dea7863daea)
 
 Удачи!
 

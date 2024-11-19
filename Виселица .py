@@ -68,15 +68,15 @@ def start():
     text_items = []
     x_start = 450
     for i, symbol in enumerate(symbols):
-        item = c.create_text(x_start + i * 60, 160, text=symbol, fill="black", font=("Helvetica", "50"))
+        item = c.create_text(x_start + i * 60, 140, text=symbol, fill="black", font=("Helvetica", "50"))
         text_items.append(item)
 
     root.bind("<Key>", on_key_press)
 
 def draw_gallows():
-    c.create_line(100, 500, 100, 100, width=5)
-    c.create_line(100, 100, 300, 100, width=5)
-    c.create_line(300, 100, 300, 150, width=5)
+    c.create_line(80, 440, 80, 110, width=6)
+    c.create_line(80, 110, 300, 110, width=5)
+    c.create_line(300, 110, 300, 160, width=5)
 
 def on_key_press(event):
     global mistakes
